@@ -88,9 +88,18 @@
 
   body {
     @apply bg-background text-foreground;
+    font-family: "Inter", system-ui, sans-serif;
   }
 
   html {
     scroll-behavior: smooth;
+  }
+
+  :root {
+    --ec-primary: #0f4c81;
+    --ec-accent: #2ecc71;
+    --ec-bg: #0a1628;
+    --ec-text: #ffffff;
+    --ec-muted: #a8bbd4;
   }
 }
